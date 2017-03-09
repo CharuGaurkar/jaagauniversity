@@ -1,7 +1,12 @@
-#homepage
+
+.coverpic
 {
-	background:url(http://w3.wallls.com/uploads/original/201603/30/wallls.com_102229.png);
-	height: 400px;
+    position: relative;
+    background: #000 url("photos/wall.png") center center;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    overflow: hidden;
 }
 #text
 {
@@ -14,8 +19,51 @@ p
 		color: white;
 
 }
-
 #service
 {
 	height:300px;
+}
+#contact
+{
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+
+}
+h3
+{
+	font-family: 'Playfair Display SC', serif;
+	color: #fff;
+
+}
+#calls
+{
+	    background-color: #1abc9c;
+		height: 530px;
+}
+
+.thumb {
+    margin-bottom: 20px;
+}
+h2
+{
+		font-family: 'Playfair Display SC', serif;
+		
+
+}
+#theme
+{
+	background: #000 url("photos/burningman.jpg");
+
+
+}
+
+#theme p
+{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1.5em;
+	color:#fff;
+}
+.burn
+{
+height: 200px;
 }
