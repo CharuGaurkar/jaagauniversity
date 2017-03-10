@@ -97,7 +97,7 @@
 /* nav bar css closed */ 
 
 
-
+/*display picture */
 .coverpic
 {
     position: relative;
@@ -118,7 +118,7 @@ p
 {
 		font-family: 'Playfair Display SC', serif;
 		color: white;
-		font-size: 2em;
+		font-size: 2.5em;
 
 }
 #service
