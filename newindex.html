@@ -86,6 +86,26 @@
 </script>
 
 <!--script closed-->
+<!-- map script-->
+
+
+<script>
+      function initMap() {
+        var uluru = {lat: 12.972442, lng: 77.580643};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+</script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxNgMaxgNa5Sto4bc3vVd5-VV8HeZ_488&callback=initMap">
+    </script>
+<!--script closed-->
 <body>
   <!--navbar-->
   <div class="mobilenav">
@@ -232,7 +252,25 @@
       </div>
   </div>
 </div>
+<!--map section-->
+<div class="col-lg-3 col-md-3"></div>
+    </div>
+</div>
+<div class="col-lg-12" id="find">
+<div class="map-find">
+<h3><strong>MAP US</strong></h3>
+</div>
+    <div id="map">
+    </div>
+    <!--footer section-->
+<div class="footer">
+<h4><strong>THE SINGULARITY</strong></h4>
+<h5>JAAGA STUDY</h5>
+<h6>Bangaluru,Karnataka,India</h6>
+<div class="social" id="icon">
 
+  </div>
+</div>
 </body>
 
 </html>

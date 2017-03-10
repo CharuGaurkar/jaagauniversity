@@ -225,3 +225,23 @@ textarea {
 	color: #5e9bfc;
 }
 /* contact style closed */
+/* map us */
+.map-find
+  {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: #F05123;
+    margin-bottom: 30px;
+}
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: GREY;
+      }
+      .footer
+      {
+        text-align: center;
+        height: 400px;
+
+      }
+
