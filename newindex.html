@@ -11,25 +11,52 @@
   <link rel="stylesheet" type="text/css" href="new.css">
 </head>
 <title>Jaaga Study : Creative HackerSpace &amp; Learning Centre</title>
+
+
+
+<!--script-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"> </script> 
+    <script type="text/javascript">
+
+
+$(document).ready(function () {
+    $(".icon").click(function () {
+        $(".mobilenav").fadeToggle(500);
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
+    });
+     $(".mobilenav li a").click(function() {
+        $(".mobilenav").fadeToggle(500);
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
+     });
+});
+
+
+    </script>
+    <!--script closed-->
 <body>
   <!--navbar-->
-  <nav class="navbar nav bar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-       <a class="navbar-brand" href="#">Jaaga University</a>
-     </div>
-     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Map US</a></li>
-     </ul>
-     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-     </ul>
-  </div>
-</nav>
+  <div class="mobilenav">
+              <li class="active"><a href="#hero"><span>HOME</span></a></li>
+              <li><a href="#intro"><span>PROGRAMS</span></a></li>
+              <li><a href="#features"><span>GALLARY</span></a></li>
+              <li><a href="#portfolio"><span>CONTACT</span></a></li>
+              <li><a href="#contact"><span>MAP US</span></a></li>
+            </div> 
+
+            <!-- THIS IS THE ICON -->
+
+            <a href="javascript:void(0)" class="icon">
+              <div class="hamburger">
+                <div class="menui top-menu"></div>
+                <div class="menui mid-menu"></div>
+                <div class="menui bottom-menu"></div>
+              </div>
+            </a>
+<!--navbar closed-->
 <!--main division-->
 <div class="coverpic" id="homepage">
   <div class="container-fluid">
@@ -44,6 +71,8 @@
 <div class="container-fluid">
   <div class="row" id="service">
     <div class="col-lg-12">
+         <h2 class="text-center"><strong>STUDY PROGRAMS</strong></h2>
+    </div>
       <!--first div-->
       <div class="row">
         <div class="rough col-sm-3">
