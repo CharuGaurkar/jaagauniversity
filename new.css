@@ -24,7 +24,28 @@ p
 }
 #service
 {
-	height:300px;
+	margin:10px;
+	color: #fff;
+}
+.rough
+{
+		    background-color: #F05123;
+		    height: 250px;
+
+
+}
+.rough2
+{
+		    background-color: #114d9c;
+		    height: 250px;
+
+
+}
+.rough3
+{
+	    background-color: #F05123;
+	    height: 250px;
+
 }
 /*#contact
 {
@@ -50,16 +71,14 @@ h3
 h2
 {
 		font-family: 'Playfair Display SC', serif;
+		color: #000;
 		
 
 }
 #theme
 {
 	background: #000 url("photos/burningman.jpg");
-
-
 }
-
 #theme p
 {
 	font-family: 'Playfair Display SC', serif;
